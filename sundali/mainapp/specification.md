@@ -65,4 +65,6 @@ getDepotLocation\
     * machine_name
     * machine_type
     * readiness - техническое состояние
-    
+ 
+ *
+ *

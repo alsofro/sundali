@@ -42,8 +42,8 @@
 export default {
   name: 'TheMap',
   data: () => ({
-    })
-}
+  }),
+};
 </script>
 
 <style>

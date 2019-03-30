@@ -2,22 +2,25 @@ export default {
   state: {
     options: {
       coords: [54.62896654088406, 39.731893822753904],
-      controls: {},
+      controls: [],
     },
     markers: [
       {
-        // id: ''
-        // marker-id="1"
-        // marker-type="placemark"
-        // :coords="[54.7, 39.7]"
-        // hint-content="Hint content 1"
-        // :balloon="{header: 'header', body: 'body', footer: 'footer'}"
-        // :icon="{color: 'green', glyph: 'cinema'}"
-        // cluster-name="1"
+        coords: [54.61896654088406, 39.731893822753904],
+        hintContent: 'Car 1',
+      },
+      {
+        coords: [54.61896654088406, 39.701893822753904],
+        hintContent: 'Car 2',
+      },
+      {
+        coords: [54.62896654088406, 39.731893822753904],
+        hintContent: 'Car 3',
       },
     ],
   },
-  mutations: {},
-  actions: {},
-  getters: {},
+  getters: {
+    getMapOption: state => state.options,
+    getMapMarkers: state => state.markers,
+  },
 };

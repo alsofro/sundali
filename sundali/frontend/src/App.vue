@@ -1,12 +1,22 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <the-menu-app/>
     <router-view/>
+    baka
   </div>
 </template>
+
+<script>
+import TheMenuApp from './components/TheMenuApp.vue';
+
+export default {
+  name: 'App',
+  components: {
+    TheMenuApp,
+  },
+};
+</script>
+
 <style lang="stylus">
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif

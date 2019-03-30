@@ -10,7 +10,7 @@ export default {
   methods: {
     goTo(link) {
       this.$router.push({ path: link });
-    }
+    },
   },
 };
 </script>

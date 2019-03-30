@@ -5,7 +5,7 @@
 <script>
 export default {
   name: 'StatisticView',
-}
+};
 </script>
 
 <style>

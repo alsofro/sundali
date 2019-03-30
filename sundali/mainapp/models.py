@@ -11,3 +11,5 @@ class TestTable(models.Model):
 
     def __str__(self):
         return self.message_id
+
+
